@@ -1,0 +1,48 @@
+.front-page{
+    background-color:rgba(145, 118, 86, 0.9);
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;    
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    gap:20px;
+    font-weight:700;
+    color:white;
+}
+
+#front-page-image{
+    object-fit: contain;
+    width:700px;
+    border:solid rgb(98, 216, 255) 5px;
+    border-radius:10px;
+}
+
+.close-page{
+    position:fixed;
+    right:10px;
+    top:0;
+    background-color:#1f2937;
+    color:white;
+    font-weight:700;
+    padding:4px 14px;
+    border-radius:20px;
+    border:none;
+    font-size:30px;
+    cursor:pointer;
+    transition:0.2s;
+    z-index:100;
+}
+
+.close-page:hover{
+    padding:6px 16px;
+    background-color:azure;
+    color:#1f2937;
+}
+
+.close-page:active .front-page {
+    opacity:0;
+}

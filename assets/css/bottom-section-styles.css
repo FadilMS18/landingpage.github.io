@@ -1,0 +1,47 @@
+#container-bottom1{
+    background-color:#3882f6;
+    display:flex;
+    color:white;
+    align-items:center;
+    justify-content:center;
+    margin:50px 300px;
+    padding:50px;
+    border:none;
+    border-radius:10px;
+    flex-wrap:wrap;
+    min-width:400px;    
+
+}
+
+#title-bottom1-message{
+    font-weight:700;
+}
+
+#button-bottom1-message{
+    margin-left:auto;
+    border:solid white 2px;
+    color:white;
+    padding:8px 13px;
+    background-color:rgba(0,0,0,0);
+    border-radius:10px;
+    transition:0.2s;
+    cursor:pointer;
+}
+
+#button-bottom1-message:hover{
+    padding:10px 22px;
+}
+
+#button-bottom1-message:active{
+    background-color:#a4c7ff;
+}
+
+#container-middle2{
+    display:flex;
+    color:white;
+    background-color:#1f2937;
+    justify-content:center;
+    align-items:center;
+    height:71px;
+
+}
